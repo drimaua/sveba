@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => LaravelLocalization::setLocale()], function()
+{
+    /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+    Route::get('/', function()
+    {
+        return View::make('welcome');
+    });
+
+    Route::get('main',function(){
+        return View::make('test.main');
+    });
 });
