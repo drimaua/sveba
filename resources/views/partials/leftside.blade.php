@@ -1,21 +1,11 @@
-<h2>About Me</h2>
-<h5>Photo of me:</h5>
-<div class="fakeimg">Fake Image</div>
-<p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-<h3>Some Links</h3>
-<p>Lorem ipsum dolor sit ame.</p>
-<ul class="nav nav-pills flex-column">
-    <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-</ul>
-<hr class="d-sm-none">
+<div class="left-models">
+    <h3 class="description-heading">Модельный ряд</h3>
+    <h6>осветительной установки "Световая Башня" </h6>
+    <p>Модель без генератора (питание от сети 220V):</p>
+    <p>600Вт:<br> EL(5) 600<br> EL(Т3-5) 600<br> EL(T5-7) 600</p>
+    <p>1000Вт:<br> EL(5) 1000<br> EL(T3-5) 1000<br>  EL(T5-7) 1000</p>
+    <p>Возможны вариации изделия с автономным бензиновым генератором.</p>
+    <p>Генераторная модель (профессиональный бензиновый генератор):</p>
+    <p>600Вт: <br> ELG(5) 600S 2,5 GX<br> ELG(Т3-5) 600S 2,5 GX<br> ELG(T5-7) 600S 2,5 GX</p>
+    <p>1000Вт: <br> ELG(5) 1000S 2,5GX<br> ELG(T3-5) 1000S 2,5GX<br> ELG(T5-7) 1000S 2,5G</p>
+</div>

@@ -8,17 +8,22 @@
 <div class="jumbotron text-center top-heading">
     <h1>СВЕТОВАЯ БАШНЯ</h1>
     <h6>АРЕНДА СВЕТОВОЙ УСТАНОВКИ</h6>
+    <img src="/images/logo.png">
 </div>
 
 @include('partials.navbar')
 
-<div class="container" style="margin-top:30px">
+<div class="container" style="margin-top:20px">
+    <div class="row">
+        <div class="col-lg-12">
+            @include('partials.introText')
+        </div>
+    </div>
     <div class="row" s>
         <div class="col-lg-3">
             @include('partials.leftside')
         </div>
         <div class="col-lg-6">
-            @include('partials.introText')
             @include('partials.carouselImages')
             <br>
             @include('partials.carouselVideo')
@@ -27,11 +32,15 @@
             @include('partials.rightside')
         </div>
     </div>
+    <hr class="new-hr">
+    <div class="row">
+        <div class="col-lg-12">
+            @include('partials.bottomText')
+        </div>
+    </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
-</div>
+    @include('layouts.footer')
 
 </body>
 </html>

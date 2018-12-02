@@ -12,13 +12,71 @@ body {
 
 .info-text {
     text-align: center;
+    margin-bottom: 27px;
 }
 
 .info-text-title {
-    font-size: 22pt;
+    font-size: 24pt;
     font-weight: 500;
+    margin-bottom: 0px;
 }
 
 .info-text-text {
-    color: #707070;
+    color: #606060;
+}
+
+@media screen  and (max-width: 991px) {
+    .description-heading {
+        text-align: center;
+    }
+}
+
+.description-heading-center {
+    text-align: center;
+}
+
+.right-description p {
+    font-size: 15px;
+}
+.left-models p {
+    font-size: 15px;
+}
+
+.new-hr {
+    width: 40vW;
+    border: solid 1px;
+}
+
+.footer-style {
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-style p {
+    color: #a0a0a0;
+}
+
+.footer-style a {
+    color: #a0a0a0;
+}
+
+.footer-style>div {
+    padding-left: 50px;
+}
+
+.carousel-bordered {
+    border: 1px solid #a0a0a0;
+    padding: 10px;
+    margin: 10px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+.carouselImages .carousel-item img {
+    border-radius: 50%;
 }

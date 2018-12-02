@@ -1,0 +1,59 @@
+<div class="container-fluid">
+    <div class="row footer-style" style="margin-bottom:0;min-height: 240px;background-color: #3A3F46;">
+        <div class="col-md-3" style="padding-top: 30px;">
+            <h4>Модельный ряд</h4>
+            <p>
+                EL(5) 600<br>
+                EL(Т3-5) 600<br>
+                EL(T5-7) 600
+            </p>
+            <p>
+                EL(5) 1000<br>
+                EL(T3-5) 1000<br>
+                EL(T5-7) 1000
+            </p>
+
+        </div>
+        <div class="col-md-3" style="padding-top: 30px;">
+            <h4>Модели с генератором</h4>
+            <p>
+                ELG(5) 600S 2,5 GX<br>
+                ELG(Т3-5) 600S 2,5 GX<br>
+                ELG(T5-7) 600S 2,5 GX
+            </p>
+            <p>
+                ELG(5) 1000S 2,5GX<br>
+                ELG(T3-5) 1000S 2,5GX<br>
+                ELG(T5-7) 1000S 2,5G
+            </p>
+        </div>
+        <div class="col-md-3" style="padding-top: 30px;">
+            <h4>Контакты</h4>
+            <p>044-465-67-12</p>
+            <p>067-328-40-94</p>
+            <p>050-546-96-54</p>
+            <p>e-mail: <a href="mailto:expotorg_7@ukr.net">expotorg_7@ukr.net</a></p>
+        </div>
+        <div class="col-md-3" style="padding-top: 30px;">
+            <h4>Контакты</h4>
+            <p>044-465-67-12</p>
+            <p>067-328-40-94</p>
+            <p>050-546-96-54</p>
+            <p>e-mail: <a href="mailto:expotorg_7@ukr.net">expotorg_7@ukr.net</a></p>
+        </div>
+    </div>
+    <div class="row" style="margin-bottom:0;min-height: 100px;background-color: #33373E; color: white;">
+        <div class="col-sm-3 text-center">
+            <img src="/images/logo.png" height="80px" style="margin:10px;">
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-3 text-center">
+            <img src="/images/social.png" style="margin: 26px;;">
+        </div>
+    </div>
+</div>

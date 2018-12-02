@@ -1,18 +1,50 @@
-<div id="carouselImages" class="carousel slide" data-ride="carousel" data-interval="0">
+<div id="carouselImages" class="carousel slide carouselImages" data-ride="carousel" data-interval="0">
     <ol class="carousel-indicators">
         <li data-target="#carouselImages" data-slide-to="0" class="active"></li>
         <li data-target="#carouselImages" data-slide-to="1"></li>
         <li data-target="#carouselImages" data-slide-to="2"></li>
+        <li data-target="#carouselImages" data-slide-to="3"></li>
+        <li data-target="#carouselImages" data-slide-to="4"></li>
+        <li data-target="#carouselImages" data-slide-to="5"></li>
+        <li data-target="#carouselImages" data-slide-to="6"></li>
+        <li data-target="#carouselImages" data-slide-to="7"></li>
+        <li data-target="#carouselImages" data-slide-to="8"></li>
+        <li data-target="#carouselImages" data-slide-to="9"></li>
+        <li data-target="#carouselImages" data-slide-to="10"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="/images/carousel/26.jpg" alt="First slide">
+            <img class="d-block w-100" src="/images/carousel/c1.jpg">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="/images/carousel/27.jpg" alt="Second slide">
+            <img class="d-block w-100" src="/images/carousel/c2.jpg">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="/images/carousel/28.jpg" alt="Third slide">
+            <img class="d-block w-100" src="/images/carousel/c3.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c4.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c5.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c6.png">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c7.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c8.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c9.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c10.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="/images/carousel/c11.jpg">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselImages" role="button" data-slide="prev">
