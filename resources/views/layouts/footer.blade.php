@@ -43,10 +43,11 @@
         </div>
     </div>
     <div class="row" style="margin-bottom:0;min-height: 100px;background-color: #33373E; color: white;">
-        <div class="col-sm-3 text-center">
+        <div class="col-sm-4 text-center">
             <img src="/images/logo.png" height="80px" style="margin:10px;">
+            <img class="footer-logo" src="/images/logo2.png">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-2">
 
         </div>
         <div class="col-sm-3">
