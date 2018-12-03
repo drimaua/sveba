@@ -31,20 +31,24 @@
         </div>
     </div>
     <hr class="new-hr">
+    {{--<div class="row">--}}
+        {{--<div class="col-lg-3">--}}
+        {{--</div>--}}
+        {{--<div class="col-lg-6">--}}
+            {{--@include('partials.carouselVideo')--}}
+        {{--</div>--}}
+        {{--<div class="col-lg-3">--}}
+        {{--</div>--}}
+    {{--</div>--}}
     <div class="row">
-        <div class="col-lg-3">
-        </div>
-        <div class="col-lg-6">
-            @include('partials.carouselVideo')
-        </div>
-        <div class="col-lg-3">
+        <div class="col-lg-12">
+            @include('partials.swiperVideo')
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12">
             @include('partials.bottomText')
         </div>
-
     </div>
 </div>
 
