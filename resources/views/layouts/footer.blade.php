@@ -28,11 +28,9 @@
             </p>
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4>Контакты</h4>
-            <p>044-465-67-12</p>
-            <p>067-328-40-94</p>
-            <p>050-546-96-54</p>
-            <p>e-mail: <a href="mailto:expotorg_7@ukr.net">expotorg_7@ukr.net</a></p>
+            <h4>Аренда световой установки</h4>
+            <p>+38(095) 114-82-05</p>
+            <p>+38(093) 206-66-86</p>
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
             <h4>Контакты</h4>
