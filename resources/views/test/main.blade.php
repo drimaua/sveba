@@ -9,6 +9,7 @@
     <img src="/images/tower.png" class="top-tower">
     <h1>СВЕТОВАЯ БАШНЯ</h1>
     <img src="/images/logo.png">
+    <h4>ОСВЕТИ СВОЮ ЖИЗНЬ</h4>
 </div>
 
 @include('partials.navbar')
@@ -21,13 +22,14 @@
     </div>
     <div class="row">
         <div class="col-lg-3 plank-text">
-            @include('partials.leftside')
+            {{--@include('partials.leftside')--}}
+            @include('partials.rightside')
         </div>
         <div class="col-lg-5 text-center">
             @include('partials.carouselImages')
         </div>
         <div class="col-lg-4 plank-text">
-            @include('partials.rightside')
+            @include('partials.bottomText')
         </div>
     </div>
     <hr class="new-hr">
@@ -43,11 +45,6 @@
     <div class="row">
         <div class="col-lg-12">
             @include('partials.swiperVideo')
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            @include('partials.bottomText')
         </div>
     </div>
 </div>
