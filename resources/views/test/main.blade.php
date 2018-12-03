@@ -23,7 +23,7 @@
         <div class="col-lg-3 plank-text">
             @include('partials.leftside')
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 text-center">
             @include('partials.carouselImages')
         </div>
         <div class="col-lg-4 plank-text">

@@ -3,15 +3,18 @@
     <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide text-center">
-            <iframe height="250px" src="https://www.youtube.com/embed/GBOphGpcJ2Q" frameborder="0"
+            <iframe height="250" src="https://www.youtube.com/embed/YlWSKRDD8jw" frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+        <div class="swiper-slide text-center">
+            <iframe height="250" src="https://www.youtube.com/embed/HWyKWNoKmSs" frameborder="0"
                     allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="swiper-slide text-center">
-            <iframe height="250px" src="https://www.youtube.com/embed/QQTkJf6wsAQ" frameborder="0"
+            <iframe height="250" src="https://www.youtube.com/embed/GBOphGpcJ2Q" frameborder="0"
                     allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="swiper-slide text-center">
-            <iframe height="250px" src="https://www.youtube.com/embed/QQTkJf6wsAQ" frameborder="0"
+            <iframe height="250" src="https://www.youtube.com/embed/QQTkJf6wsAQ" frameborder="0"
                     allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
