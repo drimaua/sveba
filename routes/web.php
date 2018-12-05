@@ -16,10 +16,18 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
     Route::get('/', function()
     {
-        return View::make('welcome');
-    });
+        return View::make('page.main');
+    })->name('index');
 
     Route::get('main',function(){
-        return View::make('test.main');
+        return View::make('page.main');
     });
+
+    Route::get('contacts',function(){
+        return View::make('page.contacts');
+    })->name('contacts');
+
+    Route::get('models',function(){
+        return View::make('page.models');
+    })->name('models');
 });

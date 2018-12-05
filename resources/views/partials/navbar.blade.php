@@ -5,17 +5,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+            <li class="nav-item {{ (Route::currentRouteName() === 'index') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('index') }}">Главная<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Модельный ряд</a>
+            <li class="nav-item {{ (Route::currentRouteName() === 'models') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('models') }}">Модельный ряд</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Характеристики</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Контакты</a>
+            <li class="nav-item {{ (Route::currentRouteName() === 'contacts') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
             </li>
         </ul>
     </div>

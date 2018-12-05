@@ -7,7 +7,7 @@ body {
     background-image: url(/images/panorama3.jpg);
     background-size: cover;
     color: #ffffff;
-    min-height: 310px;
+    height: 332px;
 }
 
 .info-text {
@@ -56,9 +56,6 @@ body {
     color: #a0a0a0;
 }
 
-.footer-style a {
-    color: #a0a0a0;
-}
 
 .footer-style>div {
     padding-left: 50px;
@@ -121,7 +118,7 @@ body {
     }
     .top-tower {
         left: -23px;
-        top: -8px;
+        top: -23px;
         height: 400px;
     }
 }
@@ -144,4 +141,34 @@ body {
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 40px;
     height: 40px;
+}
+
+.full-width-image {
+    max-width: 100%;
+}
+
+.ul-new {
+    padding-left: 0px;
+    list-style-position: inside;
+}
+
+.link-style {
+    color: #a0a0a0;
+}
+.link-style:hover {
+    color: #a0a0a0;
+}
+
+
+.link-white {
+    color: white;
+}
+.link-white:hover {
+    color: white;
+}
+.modelsTable td {
+    border: #888888 solid 1px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    font-weight: 600;
 }
