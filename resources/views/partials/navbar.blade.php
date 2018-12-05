@@ -11,8 +11,8 @@
             <li class="nav-item {{ (Route::currentRouteName() === 'models') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('models') }}">Модельный ряд</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Характеристики</a>
+            <li class="nav-item {{ (Route::currentRouteName() === 'characteristics') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('characteristics') }}">Характеристики</a>
             </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'contacts') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
