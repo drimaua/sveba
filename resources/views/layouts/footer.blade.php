@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row footer-style" style="margin-bottom:0;min-height: 240px;background-color: #3A3F46;">
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4>Модельный ряд</h4>
+            <h4><a class="link-white" href="{{ route('models') }}">Модельный ряд</a></h4>
             <p>
                 EL(5) 600<br>
                 EL(Т3-5) 600<br>
@@ -15,7 +15,7 @@
 
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4>Модели с генератором</h4>
+            <h4><a class="link-white" href="{{ route('models') }}">Модели с генератором</a></h4>
             <p>
                 ELG(5) 600S 2,5 GX<br>
                 ELG(Т3-5) 600S 2,5 GX<br>

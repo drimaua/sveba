@@ -4,9 +4,14 @@
         <!-- Slides -->
         <div class="swiper-slide text-center">
             <iframe height="250" src="https://www.youtube.com/embed/YlWSKRDD8jw" frameborder="0"
-                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <div class="swiper-slide text-center">
             <iframe height="250" src="https://www.youtube.com/embed/HWyKWNoKmSs" frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="swiper-slide text-center">
+            <iframe height="250" src="https://www.youtube.com/embed/2Vy-TnP1xh8" frameborder="0"
                     allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="swiper-slide text-center">

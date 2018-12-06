@@ -13,15 +13,3 @@
     </div>
 </div>
 <hr>
-<div>
-    <div class="text-center">
-        <img class="full-width-image" src="/images/partner2.png">
-    </div>
-    <div>
-        <h4>Polis+</h4>
-        <p>http://polisplus.com.ua/<br>
-            (044) 22-33-697 <br>
-            ул. М. Гришка, 8, оф. 5</p>
-    </div>
-</div>
-<hr>

@@ -2,12 +2,9 @@
     <h2 class="description-heading text-center">Модельный ряд</h2>
     <p>Светильник представляет собой цилиндр из специальной свето-рассеивощей ткани. Наддув цилиндра до высоты в 3-5-7 метров осуществляется встроенным в установку насосом. Электропитание производится от автономного генератора или стационарной сети 220 В, 50 Гц. Применяемые в светильнике лампы (натриевые или металлогалогенные) обеспечивают световой поток до 140000 Лм, достаточный для освещения больших площадей.</p>
 
-    <table class="modelsTable" style="width: 100%;" border="0" cellpadding="0">
+    <table class="table table-sm modelsTable" style="width: 100%;" border="0" cellpadding="0">
         <tbody>
-        <tr>
-            <td >
-                <p align="center"><b>№</b></p>
-            </td>
+        <tr class="table-dark">
             <td >
                 <p align="center"><b>Модельный ряд</b></p>
             </td>
@@ -20,16 +17,13 @@
             <td >
                 <p align="center"><b>Высота</b></p>
             </td>
-        </tr>
-        <tr>
-            <td colspan="5" >
+        </trclass>
+        <tr class="table-success">
+            <td colspan="4" >
                 <p align="center"><b>Световая башня 600Вт</b></p>
             </td>
         </tr>
         <tr>
-            <td >
-                <p>&nbsp;1</p>
-            </td>
             <td >
                 <p>&nbsp;EL(5) 600S</p>
             </td>
@@ -45,9 +39,6 @@
         </tr>
         <tr>
             <td >
-                <p>&nbsp;2</p>
-            </td>
-            <td >
                 <p>&nbsp;EL(Т3-5) 600S</p>
             </td>
             <td >
@@ -62,9 +53,6 @@
         </tr>
         <tr>
             <td >
-                <p>&nbsp;3</p>
-            </td>
-            <td >
                 <p>&nbsp;EL(Т5-7) 600S</p>
             </td>
             <td >
@@ -77,15 +65,12 @@
                 <p align="center">5—7</p>
             </td>
         </tr>
-        <tr>
-            <td colspan="5" >
+        <tr class="table-success">
+            <td colspan="4" >
                 <p align="center"><b>Световая башня 600Вт (Geko 2801 E-A/MHBA)</b></p>
             </td>
         </tr>
         <tr>
-            <td >
-                <p>&nbsp;4</p>
-            </td>
             <td >
                 <p>&nbsp;ELG(5)600S</p>
             </td>
@@ -101,9 +86,6 @@
         </tr>
         <tr>
             <td >
-                <p>&nbsp;5</p>
-            </td>
-            <td >
                 <p>&nbsp;ELG(Т3-5)600S</p>
             </td>
             <td >
@@ -118,9 +100,6 @@
         </tr>
         <tr>
             <td >
-                <p>&nbsp;6</p>
-            </td>
-            <td >
                 <p>&nbsp;ELG(Т5-7)600S</p>
             </td>
             <td >
@@ -133,15 +112,12 @@
                 <p align="center">5—7</p>
             </td>
         </tr>
-        <tr>
-            <td colspan="5" >
+        <tr class="table-success">
+            <td colspan="4" >
                 <p align="center"><b>Световая башня 1000Вт</b></p>
             </td>
         </tr>
         <tr>
-            <td >
-                <p>&nbsp;7</p>
-            </td>
             <td >
                 <p>&nbsp;EL(5) 1000S</p>
             </td>
@@ -157,9 +133,6 @@
         </tr>
         <tr>
             <td >
-                <p>&nbsp;8</p>
-            </td>
-            <td >
                 <p>&nbsp;EL(Т3-5) 1000S</p>
             </td>
             <td >
@@ -174,9 +147,6 @@
         </tr>
         <tr>
             <td >
-                <p>&nbsp;9</p>
-            </td>
-            <td >
                 <p>&nbsp;EL(Т5-7) 1000S</p>
             </td>
             <td >
@@ -189,15 +159,12 @@
                 <p align="center">5—7</p>
             </td>
         </tr>
-        <tr>
+        <tr class="table-success">
             <td colspan="5" >
                 <p align="center"><b>Световая башня 1000Вт (Geko 2801 E-A/MHBA)</b></p>
             </td>
         </tr>
         <tr>
-            <td >
-                <p>10</p>
-            </td>
             <td >
                 <p>&nbsp;ELG(5)1000S</p>
             </td>
@@ -213,9 +180,6 @@
         </tr>
         <tr>
             <td >
-                <p>11</p>
-            </td>
-            <td >
                 <p>&nbsp;ELG(Т3-5)1000S</p>
             </td>
             <td >
@@ -230,9 +194,6 @@
         </tr>
         <tr>
             <td >
-                <p>12</p>
-            </td>
-            <td >
                 <p>&nbsp;ELG(Т5-7)1000S</p>
             </td>
             <td >
@@ -245,15 +206,12 @@
                 <p align="center">5—7</p>
             </td>
         </tr>
-        <tr>
-            <td colspan="5" >
+        <tr class="table-success">
+            <td colspan="4" >
                 <p class="text-center"><b>Световой шар</b></p>
             </td>
         </tr>
         <tr>
-            <td >
-                <p>1</p>
-            </td>
             <td >
                 <p>&nbsp;LSM 600S</p>
             </td>
