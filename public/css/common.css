@@ -100,6 +100,9 @@ body {
     position: absolute;
     top: 3px;
     left: 10vw;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
 }
 .footer-logo {
     height: 70px;
@@ -123,7 +126,7 @@ body {
         left: 140px;
     }
     .top-tower {
-        left: -23px;
+        left: -56px;
         top: -23px;
         height: 400px;
     }
@@ -133,7 +136,7 @@ body {
         left: 75px;
     }
     .top-tower {
-        left: -73px;
+        left: -100px;
         height: 350px;
         top: 22px;
     }
