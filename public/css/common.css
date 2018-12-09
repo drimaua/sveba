@@ -8,11 +8,13 @@ body {
     background-size: cover;
     color: #ffffff;
     height: 332px;
-    font-family: 'Lobster', cursive;
+    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'Comfortaa', cursive;*/
+    /*font-family: 'Lobster', cursive;*/
     /*text-shadow: 13px -13px 8px #aaa;*/
 }
 .top-heading h1 {
-    font-size: 3.5rem;
+    font-size: 3em;
 }
 
 .info-text {
