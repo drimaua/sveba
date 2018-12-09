@@ -9,11 +9,11 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-9 plank-text text-center">
-            {{--@include('partials.leftside')--}}
-            @include('partials.contacts')
+        <div class="col-lg-9 plank-text">
+            @include('partials.certificates')
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center">
+            @include('partials.carouselImages')
             @include('partials.partners')
         </div>
     </div>

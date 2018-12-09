@@ -100,6 +100,9 @@ body {
     position: absolute;
     top: 3px;
     left: 10vw;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
 }
 .footer-logo {
     height: 70px;
@@ -184,4 +187,13 @@ body {
     font-weight: 600;
     border-bottom: 2px solid white;
     position: relative;
+}
+
+.certificates-div img {
+    height: 100%;
+    width: auto;
+}
+.certificates-div>div {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

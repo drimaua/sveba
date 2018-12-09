@@ -30,7 +30,13 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
     Route::get('models',function(){
         return View::make('page.models');
     })->name('models');
+
     Route::get('characteristics',function(){
         return View::make('page.characteristics');
     })->name('characteristics');
+
+    Route::get('certificates',function(){
+        return View::make('page.certificates');
+    })->name('certificates');
+
 });

@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.master')
 
-@include('layouts.head')
-
-<body>
-
-@include('layouts.top')
-
-@include('partials.navbar')
+@section('content')
 
 <div class="container" style="margin-top:20px">
     <div class="row">
@@ -33,7 +26,4 @@
     </div>
 </div>
 
-    @include('layouts.footer')
-
-</body>
-</html>
+@endsection

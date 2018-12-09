@@ -29,9 +29,9 @@
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
             <h4><a class="link-white" href="{{ route('contacts') }}">Контакты</a></h4>
-            <p>044-465-67-12</p>
-            <p>067-328-40-94</p>
-            <p>050-546-96-54</p>
+            <p>+38(044) 465-67-12</p>
+            <p>+38(067) 328-40-94</p>
+            <p>+38(050) 546-96-54</p>
             <p>e-mail: <a class="link-style" href="mailto:expotorg_7@ukr.net">expotorg_7@ukr.net</a></p>
         </div>
         <div class="col-md-3" style="padding-top: 30px;">

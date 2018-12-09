@@ -11,7 +11,7 @@
 <p>Тел.: +7 (901) 518 34 74</p>
 <p>Факс: +7 (919) 967 11 01</p>
 <p>e-mail: <a class="link-style" href="mailto:info@sveba.ru">info@sveba.ru</a></p>
-<p>Web: <a class="link-style" href="www.sveba.ru">www.sveba.ru</a></p>
+<p>Web: <a class="link-style" href="http://www.sveba.ru">www.sveba.ru</a></p>
 <hr class="new-hr">
 <h2 class="description-heading description-heading-center">Аренда световой установки</h2>
 <p>тел.: +38 (095) 114-82-05</p>

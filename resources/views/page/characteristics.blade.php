@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.master')
 
-@include('layouts.head')
+@section('content')
 
-<body>
-
-@include('layouts.top')
-
-@include('partials.navbar')
-
-<div class="container" style="margin-top:20px">
+    <div class="container" style="margin-top:20px">
     <div class="row">
         <div class="col-lg-12">
             @include('partials.introText')
@@ -33,7 +26,4 @@
     </div>
 </div>
 
-    @include('layouts.footer')
-
-</body>
-</html>
+@endsection
