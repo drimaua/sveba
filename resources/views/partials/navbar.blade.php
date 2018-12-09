@@ -6,22 +6,22 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item {{ (Route::currentRouteName() === 'index') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('index') }}">Главная<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ route('index') }}">{{ Lang::get('menu.main') }}<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'models') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('models') }}">Модельный ряд</a>
+                <a class="nav-link" href="{{ route('models') }}">{{ Lang::get('menu.models') }}</a>
             </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'characteristics') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('characteristics') }}">Характеристики</a>
+                <a class="nav-link" href="{{ route('characteristics') }}">{{ Lang::get('menu.characteristics') }}</a>
             </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'certificates') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('certificates') }}">Сертификаты</a>
+                <a class="nav-link" href="{{ route('certificates') }}">{{ Lang::get('menu.certificates') }}</a>
             </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'patents') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('patents') }}">Патенты</a>
+                <a class="nav-link" href="{{ route('patents') }}">{{ Lang::get('menu.patents') }}</a>
             </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'contacts') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
+                <a class="nav-link" href="{{ route('contacts') }}">{{ Lang::get('menu.contacts') }}</a>
             </li>
         </ul>
     </div>

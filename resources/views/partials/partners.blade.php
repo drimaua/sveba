@@ -1,4 +1,4 @@
-<h2 class="description-heading description-heading-center">Наши партнеры:</h2>
+<h2 class="description-heading description-heading-center">{{ Lang::get('texts.partners') }}</h2>
 <hr>
 <div>
     <div class="text-center">

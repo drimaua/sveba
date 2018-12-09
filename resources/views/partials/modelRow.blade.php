@@ -1,26 +1,26 @@
 <div class="left-models">
-    <h2 class="description-heading text-center">Модельный ряд</h2>
-    <p>Светильник представляет собой цилиндр из специальной свето-рассеивощей ткани. Наддув цилиндра до высоты в 3-5-7 метров осуществляется встроенным в установку насосом. Электропитание производится от автономного генератора или стационарной сети 220 В, 50 Гц. Применяемые в светильнике лампы (натриевые или металлогалогенные) обеспечивают световой поток до 140000 Лм, достаточный для освещения больших площадей.</p>
+    <h2 class="description-heading text-center">{{ Lang::get('menu.models') }}</h2>
+    <p>{{ Lang::get('texts.models-text-top') }}</p>
 
     <table class="table table-sm modelsTable" style="width: 100%;" border="0" cellpadding="0">
         <tbody>
         <tr class="table-dark">
             <td >
-                <p align="center"><b>Модельный ряд</b></p>
+                <p align="center"><b>{{ Lang::get('menu.models') }}</b></p>
             </td>
             <td >
-                <p align="center"><b>Вес нетто/брутто (кг)</b></p>
+                <p align="center"><b>{{ Lang::get('texts.models-weight') }}</b></p>
             </td>
             <td >
-                <p align="center"><b>Упаковка</b><br>(ШxДxВ,&nbsp;мм)</p>
+                <p align="center"><b>{{ Lang::get('texts.models-packing') }}</b><br>(ШxДxВ,&nbsp;мм)</p>
             </td>
             <td >
-                <p align="center"><b>Высота</b></p>
+                <p align="center"><b>{{ Lang::get('texts.models-height') }}</b></p>
             </td>
         </trclass>
         <tr class="table-success">
             <td colspan="4" >
-                <p align="center"><b>Световая башня 600Вт</b></p>
+                <p align="center"><b>{{ Lang::get('texts.light-tower') }} 600Вт</b></p>
             </td>
         </tr>
         <tr>
@@ -67,7 +67,7 @@
         </tr>
         <tr class="table-success">
             <td colspan="4" >
-                <p align="center"><b>Световая башня 600Вт (Geko 2801 E-A/MHBA)</b></p>
+                <p align="center"><b>{{ Lang::get('texts.light-tower') }} 600Вт (Geko 2801 E-A/MHBA)</b></p>
             </td>
         </tr>
         <tr>
@@ -114,7 +114,7 @@
         </tr>
         <tr class="table-success">
             <td colspan="4" >
-                <p align="center"><b>Световая башня 1000Вт</b></p>
+                <p align="center"><b>{{ Lang::get('texts.light-tower') }} 1000Вт</b></p>
             </td>
         </tr>
         <tr>
@@ -161,7 +161,7 @@
         </tr>
         <tr class="table-success">
             <td colspan="5" >
-                <p align="center"><b>Световая башня 1000Вт (Geko 2801 E-A/MHBA)</b></p>
+                <p align="center"><b>{{ Lang::get('texts.light-tower') }} 1000Вт (Geko 2801 E-A/MHBA)</b></p>
             </td>
         </tr>
         <tr>
@@ -208,7 +208,7 @@
         </tr>
         <tr class="table-success">
             <td colspan="4" >
-                <p class="text-center"><b>Световой шар</b></p>
+                <p class="text-center"><b>{{ Lang::get('texts.light-ball') }}</b></p>
             </td>
         </tr>
         <tr>
@@ -228,25 +228,6 @@
         </tbody>
     </table>
 <hr>
-    <p>Условные обозначения:
-
-        EL- осветительная установка "Световая башня"
-        ELG - осветительная установка «Световая Башня» с электроагрегатом
-        (T) - Трансформер (изменяемая высота "Световой Башни 3-5 или 5- 7 метров )
-        (D) - Две лампы
-
-        Питание - переменный ток напряжением 220 В, частота 50 Гц.
-
-        Время надува до 30 сек., время полного разгорания лампы - 5 мин.
-
-        Встроенный нагнетатель воздуха - мощность 1 кВт., производительность 2,5- 3,5 м.куб/мин.
-
-        Ветроустойчивость установки - до 20 м/сек (Для модели с индексом (Т) - до 25 м/сек)
-
-        Климатическое исполнение У, категория размещения 1 ГОСТ 15150.
-        Температурный режим -40+60.
-
-        Для установок "Световая башня" возможно изготовление и поставка специальных рекламных чехлов, с логотипом представляемым Заказчиком. Стоимость изготовления рекламного чехла - договорная.
-    </p>
+    <p>{{ Lang::get('texts.models-text-bottom') }}</p>
 
 </div>

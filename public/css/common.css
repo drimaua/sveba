@@ -197,3 +197,20 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.lang-selector {
+    position: absolute;
+    top: 170px;
+    right: 6px;
+}
+.lang-selector-a {
+    color: white;
+    background-color: rgba(255,255,255,0.4);
+}
+.lang-selector-a:hover {
+    color: #61A185;
+}
+
+.lang-selector-active {
+    background-color: rgba(255,255,255,0.6);
+}

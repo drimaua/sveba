@@ -1,11 +1,9 @@
 <div class="row">
     <div class="col-12 text-center">
-        <h2>Сертификаты</h2>
+        <h2>{{ Lang::get('menu.certificates') }}</h2>
     </div>
     <div class="col-12">
-        <p>Вся продукция ТМ «Световая Башня» проходит строгий контроль качества.</p>
-        <p>Товары сертифицированы и соответствуют всем требованиям по безопасности и производительности, что подтверждают полученные сертификаты</p>
-    </div>
+        {!! Lang::get('texts.certificates') !!}    </div>
 </div>
 <div class="row text-center certificates-div">
     <div class="col-md-4">

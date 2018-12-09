@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row footer-style" style="margin-bottom:0;min-height: 240px;background-color: #3A3F46;">
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4><a class="link-white" href="{{ route('models') }}">Модельный ряд</a></h4>
+            <h4><a class="link-white" href="{{ route('models') }}">{{ Lang::get('menu.models') }}</a></h4>
             <p>
                 EL(5) 600<br>
                 EL(Т3-5) 600<br>
@@ -15,7 +15,7 @@
 
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4><a class="link-white" href="{{ route('models') }}">Модели с генератором</a></h4>
+            <h4><a class="link-white" href="{{ route('models') }}">{{ Lang::get('menu.models-gen') }}</a></h4>
             <p>
                 ELG(5) 600S 2,5 GX<br>
                 ELG(Т3-5) 600S 2,5 GX<br>
@@ -28,14 +28,14 @@
             </p>
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4><a class="link-white" href="{{ route('contacts') }}">Контакты</a></h4>
+            <h4><a class="link-white" href="{{ route('contacts') }}">{{ Lang::get('menu.contacts') }}</a></h4>
             <p>+38(044) 465-67-12</p>
             <p>+38(067) 328-40-94</p>
             <p>+38(050) 546-96-54</p>
             <p>e-mail: <a class="link-style" href="mailto:expotorg_7@ukr.net">expotorg_7@ukr.net</a></p>
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
-            <h4>Аренда световой установки</h4>
+            <h4>{{ Lang::get('menu.rent') }}</h4>
             <p>+38(095) 114-82-05</p>
             <p>+38(093) 206-66-86</p>
             <p>e-mail: <a class="link-style" href="mailto:light.tower2.0@gmail.com">light.tower2.0@gmail.com</a></p>
