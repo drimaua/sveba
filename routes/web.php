@@ -39,4 +39,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
         return View::make('page.certificates');
     })->name('certificates');
 
+    Route::get('patents',function(){
+        return View::make('page.patents');
+    })->name('patents');
+
 });

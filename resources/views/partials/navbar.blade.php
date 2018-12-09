@@ -17,6 +17,9 @@
             <li class="nav-item {{ (Route::currentRouteName() === 'certificates') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('certificates') }}">Сертификаты</a>
             </li>
+            <li class="nav-item {{ (Route::currentRouteName() === 'patents') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('patents') }}">Патенты</a>
+            </li>
             <li class="nav-item {{ (Route::currentRouteName() === 'contacts') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
             </li>
