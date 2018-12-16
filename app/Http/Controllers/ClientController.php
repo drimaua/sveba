@@ -36,27 +36,27 @@ class ClientController extends Controller
 
     public function contacts()
     {
-        return view('page.contacts');
+        return view('page.contacts', ['imgSmall' => $this->imgSmall, 'imgBig' => $this->imgBig]);
     }
 
     public function models()
     {
-        return view('page.models');
+        return view('page.models', ['imgSmall' => $this->imgSmall, 'imgBig' => $this->imgBig]);
     }
 
     public function characteristics()
     {
-        return view('page.characteristics');
+        return view('page.characteristics', ['imgSmall' => $this->imgSmall, 'imgBig' => $this->imgBig]);
     }
 
     public function certificates()
     {
-        return view('page.certificates');
+        return view('page.certificates', ['imgSmall' => $this->imgSmall, 'imgBig' => $this->imgBig]);
     }
 
     public function patents()
     {
-        return view('page.patents');
+        return view('page.patents', ['imgSmall' => $this->imgSmall, 'imgBig' => $this->imgBig]);
     }
 
 }
