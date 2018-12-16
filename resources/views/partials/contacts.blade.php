@@ -15,5 +15,4 @@
 <hr class="new-hr">
 <h2 class="description-heading description-heading-center">{{ Lang::get('menu.rent') }}</h2>
 <p>тел.: +38 (095) 114-82-05</p>
-<p>тел.: +38 (093) 206-66-86</p>
 <p>e-mail: <a class="link-style" href="mailto:light.tower2.0@gmail.com">light.tower2.0@gmail.com</a></p>

@@ -14,33 +14,12 @@
 Route::group(['prefix' => LaravelLocalization::setLocale()], function()
 {
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
-    Route::get('/', function()
-    {
-        return View::make('page.main');
-    })->name('index');
 
-    Route::get('main',function(){
-        return View::make('page.main');
-    });
-
-    Route::get('contacts',function(){
-        return View::make('page.contacts');
-    })->name('contacts');
-
-    Route::get('models',function(){
-        return View::make('page.models');
-    })->name('models');
-
-    Route::get('characteristics',function(){
-        return View::make('page.characteristics');
-    })->name('characteristics');
-
-    Route::get('certificates',function(){
-        return View::make('page.certificates');
-    })->name('certificates');
-
-    Route::get('patents',function(){
-        return View::make('page.patents');
-    })->name('patents');
+    Route::get('/', 'ClientController@index')->name('index');
+    Route::get('contacts', 'ClientController@contacts')->name('contacts');
+    Route::get('models', 'ClientController@models')->name('models');
+    Route::get('characteristics', 'ClientController@characteristics')->name('characteristics');
+    Route::get('certificates', 'ClientController@certificates')->name('certificates');
+    Route::get('patents', 'ClientController@patents')->name('patents');
 
 });
