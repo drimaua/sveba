@@ -5,6 +5,7 @@ body {
 .top-heading {
     margin-bottom:0;
     background-image: url(/images/panorama3.jpg);
+    background-position-x: center;
     background-size: cover;
     color: #ffffff;
     height: 332px;
