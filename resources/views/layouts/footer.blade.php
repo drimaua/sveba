@@ -3,8 +3,8 @@
         <div class="col-md-6" style="padding-top: 30px;">
             <h4><a class="link-white" href="{{ route('models') }}">{{ Lang::get('menu.models') }}</a></h4>
             <p>Модель без генератора (питание от сети 220V):</p>
-            <p>600Вт: EL(5) 600; EL(Т3-5) 600; EL(T5-7) 600</p>
-            <p>1000Вт: EL(5) 1000; EL(T3-5) 1000; EL(T5-7) 1000</p>
+            <p class="blue-text">600Вт: EL(5) 600; EL(Т3-5) 600; EL(T5-7) 600</p>
+            <p class="blue-text">1000Вт: EL(5) 1000; EL(T3-5) 1000; EL(T5-7) 1000</p>
             <p>Возможны вариации изделия с автономным бензиновым генератором.</p>
         </div>
         {{--<div class="col-md-3" style="padding-top: 30px;">--}}
@@ -22,14 +22,14 @@
         {{--</div>--}}
         <div class="col-md-3" style="padding-top: 30px;">
             <h4><a class="link-white" href="{{ route('contacts') }}">{{ Lang::get('menu.contacts') }}</a></h4>
-            <p>+38(044) 465-67-12</p>
-            <p>+38(067) 328-40-94</p>
-            <p>+38(050) 546-96-54</p>
+            <p class="blue-text">+38(044) 465-67-12</p>
+            <p class="blue-text">+38(067) 328-40-94</p>
+            <p class="blue-text">+38(050) 546-96-54</p>
             <p>e-mail: <a class="link-style" href="mailto:expotorg_7@ukr.net">expotorg_7@ukr.net</a></p>
         </div>
         <div class="col-md-3" style="padding-top: 30px;">
             <h4>{{ Lang::get('menu.rent') }}</h4>
-            <p>+38(095) 114-82-05</p>
+            <p class="blue-text">+38(095) 114-82-05</p>
             <p>e-mail: <a class="link-style" href="mailto:light.tower2.0@gmail.com">light.tower2.0@gmail.com</a></p>
         </div>
     </div>
