@@ -171,6 +171,12 @@ body {
     color: #a0a0a0;
 }
 
+.link-black {
+    color: rgb(33, 37, 41);
+}
+.link-black:hover {
+    color: rgb(33, 37, 41);
+}
 
 .link-white {
     color: white;
