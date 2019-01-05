@@ -2,10 +2,7 @@
     <div class="row footer-style" style="margin-bottom:0;min-height: 240px;background-color: #3A3F46;">
         <div class="col-md-6" style="padding-top: 30px;">
             <h4><a class="link-white" href="{{ route('models') }}">{{ Lang::get('menu.models') }}</a></h4>
-            <p>Модель без генератора (питание от сети 220V):</p>
-            <p class="blue-text">600Вт: EL(5) 600; EL(Т3-5) 600; EL(T5-7) 600</p>
-            <p class="blue-text">1000Вт: EL(5) 1000; EL(T3-5) 1000; EL(T5-7) 1000</p>
-            <p>Возможны вариации изделия с автономным бензиновым генератором.</p>
+            {!! Lang::get('texts.footer-models') !!}
         </div>
         {{--<div class="col-md-3" style="padding-top: 30px;">--}}
             {{--<h4><a class="link-white" href="{{ route('models') }}">{{ Lang::get('menu.models-gen') }}</a></h4>--}}
