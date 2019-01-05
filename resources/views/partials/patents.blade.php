@@ -2,7 +2,7 @@
     <div class="col-12 text-center">
         <h2>{{ Lang::get('menu.patents') }}</h2>
     </div>
-    <div class="col-12">
+    <div class="col-12 text-justify">
         {!!  Lang::get('texts.patents') !!}
     </div>
 </div>

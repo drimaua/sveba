@@ -1,6 +1,6 @@
 <div class="left-models">
     <h2 class="description-heading text-center">{{ Lang::get('menu.models') }}</h2>
-    <p>{{ Lang::get('texts.models-text-top') }}</p>
+    <p class="text-justify">{{ Lang::get('texts.models-text-top') }}</p>
 
     <table class="table table-sm modelsTable" style="width: 100%;" border="0" cellpadding="0">
         <tbody>
@@ -115,6 +115,6 @@
         </tbody>
     </table>
 <hr>
-    <p>{!! Lang::get('texts.models-text-bottom') !!}</p>
+    <p class="text-justify">{!! Lang::get('texts.models-text-bottom') !!}</p>
 
 </div>
